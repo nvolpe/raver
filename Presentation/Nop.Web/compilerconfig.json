@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "Themes/DefaultClean/Content/css/StyleSheet1.css",
+    "inputFile": "Themes/DefaultClean/Content/css/StyleSheet1.scss"
+  },
+  {
+    "outputFile": "Themes/DefaultClean/Content/css/styles.css",
+    "inputFile": "Themes/DefaultClean/Content/css/styles.scss"
+  }
+]
