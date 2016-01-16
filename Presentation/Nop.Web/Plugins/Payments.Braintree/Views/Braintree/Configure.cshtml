@@ -1,0 +1,79 @@
+﻿@{
+    Layout = "";
+}
+@model ConfigurationModel
+@using Nop.Plugin.Payments.Braintree.Models;
+@using Nop.Web.Framework;
+@Html.Action("StoreScopeConfiguration", "Setting", new { area = "Admin" })
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <b>The payment plugin uses the primary currency of the shop, so make sure the primary currency is the same as the configured Merchant Account. You can configure the Merchant Account by setting the MerchantAccountId configuration.</b><br />
+    <b>Some of the settings below are mandatory, if any is missing, the settings are invalid and the payment method is not shown to the customer on the checkout page.</b>
+    <br /><hr /><br />
+    
+    <table class="adminContent">
+       
+        <tr>
+            <td class="adminTitle">
+                @Html.NopLabelFor(model => model.SecretApiKey, false) *:
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.SecretApiKey)
+                @Html.ValidationMessageFor(model => model.SecretApiKey)
+            </td>
+        </tr>
+        <tr>
+            <td class="adminTitle">
+                @Html.NopLabelFor(model => model.PublicApiKey, false) *:
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.PublicApiKey)
+                @Html.ValidationMessageFor(model => model.PublicApiKey)
+            </td>
+        </tr>
+        <tr>
+            <td class="adminTitle">
+                @Html.NopLabelFor(model => model.MerchantId, false) *:
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.MerchantId)
+                @Html.ValidationMessageFor(model => model.MerchantId)
+            </td>
+        </tr>
+        <tr>
+            <td class="adminTitle">
+                @Html.NopLabelFor(model => model.MerchantAccountId, false):
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.MerchantAccountId)
+                @Html.ValidationMessageFor(model => model.MerchantAccountId)
+            </td>
+        </tr>
+        <tr>
+            <td class="adminTitle">
+                @Html.NopLabelFor(model => model.AuthorizeOnly, false) *:
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.AuthorizeOnly)
+                @Html.ValidationMessageFor(model => model.AuthorizeOnly)
+            </td>
+        </tr>
+        <tr>
+            <td class="adminTitle">
+                @Html.NopLabelFor(model => model.UseSandbox, false) *:
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.UseSandbox)
+                @Html.ValidationMessageFor(model => model.UseSandbox)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="save" class="k-button" title="Save the configuration" value="Save" />
+            </td>
+        </tr>
+    </table>
+    
+}
