@@ -12,7 +12,7 @@
 }
 <div class="header">
     @Html.Widget("header")
-    <div class="header-upper">
+    @*<div class="header-upper">
         <div class="header-selectors-wrapper">
             
             @Html.Action("TaxTypeSelector", "Common")
@@ -27,15 +27,15 @@
             @Html.Action("HeaderLinks", "Common")
             @Html.Action("FlyoutShoppingCart", "ShoppingCart")
         </div>
-    </div>
+    </div>*@
     <div class="header-lower">
         <div class="header-logo">
             <a href="@Url.RouteUrl("HomePage")">
                 <img title="" alt="@storeName" src="@Url.Content(logoPath)">
             </a>
         </div>
-        <div class="search-box store-search-box">
+        @*<div class="search-box store-search-box">
             @Html.Action("SearchBox", "Catalog")
-        </div>
+        </div>*@
     </div>
 </div>
