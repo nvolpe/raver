@@ -5,59 +5,53 @@
 @using Nop.Web.Framework;
 
 
-@*<table width="100%" cellspacing="2" cellpadding="1" border="0">
-        <tr>
-            <td>
-                @Html.NopLabelFor(model => model.CardholderName, false):
-            </td>
-            <td>
-                @Html.TextBoxFor(model => model.CardholderName, new { style = "Width: 165px;", autocomplete = "off", Name = "" })
-                @Html.ValidationMessageFor(model => model.CardholderName)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                @Html.NopLabelFor(model => model.CardNumber, false):
-            </td>
-            <td>
-                @Html.TextBoxFor(model => model.CardNumber, new { style = "Width: 165px;", autocomplete = "off", maxlength = 22, Name = "" })
-                @Html.ValidationMessageFor(model => model.CardNumber)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                @Html.NopLabelFor(model => model.ExpireMonth, false):
-            </td>
-            <td>
-                @Html.DropDownListFor(model => model.ExpireMonth, Model.ExpireMonths, new { @Name = "" })
-                /
-                @Html.DropDownListFor(model => model.ExpireYear, Model.ExpireYears, new { @Name = "" })
-            </td>
-        </tr>
-        <tr>
-            <td>
-                @Html.NopLabelFor(model => model.CardCode, false):
-            </td>
-            <td>
-                @Html.TextBoxFor(model => model.CardCode, new { style = "Width: 60px!important;", autocomplete = "off", maxlength = 4, Name = "" })
-                @Html.ValidationMessageFor(model => model.CardCode)
-            </td>
-        </tr>
-        <tr>
-            <td><input style="display:none;" type="hidden" name="paymenttoken" id="paymenttoken" /></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><input style="display:none;" type="hidden" name="nextstep" value = "Next" id="nextstep" /></td>
-            <td></td>
-        </tr>
-    </table>*@
-
-
-<form id="checkout" method="post" action="/checkout">
-    <div id="payment-form"></div>
-    <input type="submit" value="Pay $10">
-</form>
+<table width="100%" cellspacing="2" cellpadding="1" border="0">
+    <tr>
+        <td>
+            @Html.NopLabelFor(model => model.CardholderName, false):
+        </td>
+        <td>
+            @Html.TextBoxFor(model => model.CardholderName, new { style = "Width: 165px;", autocomplete = "off", Name = "" })
+            @Html.ValidationMessageFor(model => model.CardholderName)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.NopLabelFor(model => model.CardNumber, false):
+        </td>
+        <td>
+            @Html.TextBoxFor(model => model.CardNumber, new { style = "Width: 165px;", autocomplete = "off", maxlength = 22, Name = "" })
+            @Html.ValidationMessageFor(model => model.CardNumber)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.NopLabelFor(model => model.ExpireMonth, false):
+        </td>
+        <td>
+            @Html.DropDownListFor(model => model.ExpireMonth, Model.ExpireMonths, new { @Name = "" })
+            /
+            @Html.DropDownListFor(model => model.ExpireYear, Model.ExpireYears, new { @Name = "" })
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.NopLabelFor(model => model.CardCode, false):
+        </td>
+        <td>
+            @Html.TextBoxFor(model => model.CardCode, new { style = "Width: 60px!important;", autocomplete = "off", maxlength = 4, Name = "" })
+            @Html.ValidationMessageFor(model => model.CardCode)
+        </td>
+    </tr>
+    <tr>
+        <td><input style="display:none;" type="hidden" name="paymenttoken" id="paymenttoken" /></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><input style="display:none;" type="hidden" name="nextstep" value = "Next" id="nextstep" /></td>
+        <td></td>
+    </tr>
+</table>
 
 
 <script type="text/javascript">
@@ -71,22 +65,6 @@
 
     function GetScriptCallback() {
         var clientToken = '@ViewBag.ClientToken';
-
-
-        //braintree.setup(clientToken, "dropin", {
-        //    container: "payment-form",
-        //    paypal: {
-        //        singleUse: true,
-        //        amount: 15.00,
-        //        currency: 'USD'
-        //    },
-
-        //    onPaymentMethodReceived: function (obj) {
-        //        console.log('doSomethingWithNonce', obj)
-        //    }
-
-        //});
-
         var client = new braintree.api.Client({ clientToken: clientToken });
         $(".payment-info-next-step-button").removeAttr("onClick");
 
@@ -133,7 +111,7 @@
                     valid = false;
                 }
             }
-
+            
             if (!$('#CardNumber').val())
             {
                 $(".payment-errors").append('<br />' + '@T("Plugins.Payments.Braintree.Errors.CardNumberRequired")');
@@ -156,6 +134,7 @@
                     cvv: $('#CardCode').val()
                 }, braintreeResponseHandler);
             }
+
             return false;
         });
     };
@@ -164,7 +143,9 @@
 </script>
 <div class="payment-errors"></div>
 <style>
-    .payment-errors {
-        color: red;
-    }
+
+.payment-errors {
+    color: red;
+}
+
 </style>
