@@ -49,6 +49,8 @@ namespace Nop.Web
             //initialize engine context
             EngineContext.Initialize(false);
 
+
+
             bool databaseInstalled = DataSettingsHelper.DatabaseIsInstalled();
             if (databaseInstalled)
             {

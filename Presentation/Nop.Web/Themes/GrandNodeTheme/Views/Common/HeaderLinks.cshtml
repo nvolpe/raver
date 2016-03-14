@@ -5,13 +5,13 @@
         @Html.Widget("header_links_before")
         @if (Model.IsAuthenticated)
         {
-            <li><a href="@Url.RouteUrl("CustomerInfo")">
+            <li><a href="@Url.RouteUrl("ContactUs")">
                     <span class="email-username-label">@Model.CustomerEmailUsername</span>
                     <span class="material-icons left tiny">account_circle</span>
                 </a>
             </li>
             <li>
-                <a href="@Url.RouteUrl("Logout")">
+                <a href="@Url.RouteUrl("ContactUs")">
                     <span class="account-logout-label">@T("Account.Logout")</span>
                     <span class="material-icons left tiny">keyboard_tab</span>
                 </a>
@@ -20,13 +20,13 @@
         else
         {
             <li>
-                <a href="@Url.RouteUrl("Register")">
+                <a href="@Url.RouteUrl("ContactUs")">
                     <span class="account-register-label">@T("Account.Register")</span>
                     <span class="material-icons left tiny">person</span>
                 </a>
             </li>
             <li>
-                <a href="@Url.RouteUrl("Login")">
+                <a href="@Url.RouteUrl("ContactUs")">
                     <span class="account-login-label">@T("Account.Login")</span>
                     <span class="material-icons left tiny">input</span>
                 </a>
@@ -35,7 +35,7 @@
         @if (Model.AllowPrivateMessages)
         {
             <li>
-                <a href="@Url.RouteUrl("PrivateMessages", new { tab = "" })">
+                <a href="@Url.RouteUrl("ContactUs", new { tab = "" })">
                     <span class="material-icons left tiny">email</span>
                     <span class="private-message-label">@T("PrivateMessages.Inbox")</span>
                     <span class="unread-message-qty">@Model.UnreadPrivateMessages</span>
@@ -45,7 +45,7 @@
         @if (Model.WishlistEnabled)
         {
             <li>
-                <a href="@Url.RouteUrl("Wishlist")">
+                <a href="@Url.RouteUrl("ContactUs")">
                     <span class="material-icons left tiny">favorite</span>
                     <span class="wishlist-label">@T("Wishlist")</span>
                     <span class="wishlist-qty">@T("Wishlist.HeaderQuantity", Model.WishlistItems)</span>
