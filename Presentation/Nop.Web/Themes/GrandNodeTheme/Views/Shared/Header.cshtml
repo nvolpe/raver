@@ -5,7 +5,7 @@
 @{
     //logo path
     var currentThemeName = EngineContext.Current.Resolve<IThemeContext>().WorkingThemeName;
-    var logoPath = "~/Themes/" + currentThemeName + "/Content/images/logo1.jpg";
+    var logoPath = "~/Themes/" + currentThemeName + "/Content/images/logo-3.png";
 
     //store name
     var storeName = EngineContext.Current.Resolve<IStoreContext>().CurrentStore.GetLocalized(x => x.Name);
@@ -33,7 +33,7 @@
 
     <div class="container header-lower">
         <div class="row">
-            <div class="header-logo col s12 m3">
+            <div class="header-logo col s12 m6">
                 <a href="@Url.RouteUrl("HomePage")">
                     <img title="" alt="@storeName" src="@Url.Content(logoPath)">
                 </a>
@@ -41,7 +41,7 @@
             <div class="search-box input-field col s12 m6">
                 @*@Html.Action("SearchBox", "Catalog")*@
             </div>
-            <div class="col s12 m3" id="topcartlink">
+            <div class="col s12 m6" id="topcartlink">
                 <div class="topcart">
                     <a class="btn waves-effect waves-light" href="@Url.RouteUrl("ContactUs")">
                         <span class="cart-label">@T("ShoppingCart")</span>

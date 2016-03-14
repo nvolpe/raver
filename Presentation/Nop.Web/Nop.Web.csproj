@@ -2269,6 +2269,7 @@
     <Content Include="Themes\GrandNodeTheme\Content\images\ie_warning.jpg" />
     <Content Include="Themes\GrandNodeTheme\Content\images\last.png" />
     <Content Include="Themes\GrandNodeTheme\Content\images\loading.gif" />
+    <Content Include="Themes\GrandNodeTheme\Content\images\logo-3.png" />
     <Content Include="Themes\GrandNodeTheme\Content\images\logo1.jpg" />
     <Content Include="Themes\GrandNodeTheme\Content\images\logo2.jpg" />
     <Content Include="Themes\GrandNodeTheme\Content\images\logo.png" />
@@ -2301,6 +2302,12 @@
     <Content Include="Themes\GrandNodeTheme\Content\images\wishlist-button.png" />
     <Content Include="Themes\GrandNodeTheme\Content\js\materialize.js" />
     <Content Include="Themes\GrandNodeTheme\Content\js\materialize.min.js" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\materialize.css">
+      <DependentUpon>materialize.scss</DependentUpon>
+    </Content>
+    <Content Include="Themes\GrandNodeTheme\Content\sass\materialize.min.css">
+      <DependentUpon>materialize.css</DependentUpon>
+    </Content>
     <Content Include="Themes\GrandNodeTheme\preview.jpg" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -2492,6 +2499,38 @@
     <Content Include="Themes\GrandNodeTheme\Views\ShoppingCart\_GiftCardBox.cshtml" />
     <Content Include="Themes\GrandNodeTheme\Views\Vendor\ApplyVendor.cshtml" />
     <Content Include="Themes\GrandNodeTheme\Views\Web.config" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\date_picker\_default.date.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\date_picker\_default.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\date_picker\_default.time.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_buttons.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_cards.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_carousel.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_chips.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_collapsible.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_color.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_dropdown.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_form.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_global.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_grid.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_icons-material-design.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_materialbox.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_mixins.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_modal.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_navbar.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_normalize.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_prefixer.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_preloader.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_roboto.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_sideNav.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_slider.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_table_of_contents.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_tabs.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_toast.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_tooltip.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_typography.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_variables.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\components\_waves.scss" />
+    <Content Include="Themes\GrandNodeTheme\Content\sass\materialize.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\Roxy_Fileman\tmp\" />
