@@ -72,11 +72,16 @@ else
         @if (!String.IsNullOrEmpty(Model.Title))
         {
             <div class="topic-block-title">
-                <h2>@Model.Title</h2>
+                @*<h2>@Model.Title</h2>*@
+                <img class="responsive-img" src="~/Themes/GrandNodeTheme/Content/images/Website-Under-Construction.jpg" />
             </div>
+
+
         }
         <div class="topic-block-body">
             @Html.Raw(Model.Body)
         </div>
+
+      
     </div>
 }

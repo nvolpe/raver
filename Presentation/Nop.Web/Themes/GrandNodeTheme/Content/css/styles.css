@@ -2323,11 +2323,12 @@ footer.page-footer .footer-copyright a{
 
 .topic-block {
 	margin: 0 0 25px;
+    border-bottom: 1px solid #ddd;
 }
 .topic-block-title {
 	min-height: 50px;
 	margin: 0 0 25px;
-	border-bottom: 1px solid #ddd;
+	/*border-bottom: 1px solid #ddd;*/
 	padding: 0 0 15px;
 }
 .topic-block-title h2 {
@@ -2338,6 +2339,9 @@ footer.page-footer .footer-copyright a{
 	text-align: justify;
 	line-height: 24px;
 	font-size: 16px;
+    color: black;
+    /*margin-top: 20px;*/
+    /*padding-top: 30px;*/
 }
 .topic-page .page-body {
 	text-align: justify;
