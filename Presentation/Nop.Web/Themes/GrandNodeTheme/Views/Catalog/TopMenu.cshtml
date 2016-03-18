@@ -162,7 +162,7 @@
             }
             @foreach (var topic in Model.Topics)
             {
-                <li><a href="@Url.RouteUrl("ContactUs", new { SeName = topic.SeName })">@topic.Name</a></li>
+                <li class="nav-width"><a href="@Url.RouteUrl("ContactUs", new { SeName = topic.SeName })">@topic.Name</a></li>
             }
             
             @if (rootCategories.Count == 0 && Model.Topics.Count == 0)

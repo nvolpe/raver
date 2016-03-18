@@ -2323,7 +2323,7 @@ footer.page-footer .footer-copyright a{
 
 .topic-block {
 	margin: 0 0 25px;
-    border-bottom: 1px solid #ddd;
+    /*border-bottom: 1px solid #ddd;*/
 }
 .topic-block-title {
 	min-height: 50px;
@@ -2340,6 +2340,9 @@ footer.page-footer .footer-copyright a{
 	line-height: 24px;
 	font-size: 16px;
     color: black;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
     /*margin-top: 20px;*/
     /*padding-top: 30px;*/
 }
@@ -2357,7 +2360,7 @@ footer.page-footer .footer-copyright a{
 }
 
 .home-page .topic-block {
-	margin: 0 0 50px;
+	/*margin: 0 0 50px;*/
 }
 .popup-window .topic-page {
 	padding: 15px;
@@ -6008,7 +6011,7 @@ select[name="DateOfBirthYear"] {
 
 
 .center-1 .topic-block-title {
-	text-align: center;
+	/*text-align: center;*/
 }
 .topic-page p {
 	text-align: left;
@@ -6425,6 +6428,11 @@ select[name="DateOfBirthYear"] {
 .max-height-img {
     max-height: 300px 
 }
+
+
+/*.top-mewide-nav {
+    width: 15%;
+}*/
 
 
 

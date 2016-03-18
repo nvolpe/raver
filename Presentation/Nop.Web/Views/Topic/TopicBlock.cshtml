@@ -68,20 +68,17 @@
 }
 else
 {
-    <div class="topic-block">
+    <div class="topic-block row">
         @if (!String.IsNullOrEmpty(Model.Title))
         {
-            <div class="topic-block-title">
+            <div class="topic-block-title col offset-l3 l6">
                 @*<h2>@Model.Title</h2>*@
                 <img class="responsive-img" src="~/Themes/GrandNodeTheme/Content/images/Website-Under-Construction.jpg" />
             </div>
-
-
         }
-        <div class="topic-block-body">
-            @Html.Raw(Model.Body)
-        </div>
+    </div>
 
-      
+    <div class="topic-block-body">
+        @Html.Raw(Model.Body)
     </div>
 }
