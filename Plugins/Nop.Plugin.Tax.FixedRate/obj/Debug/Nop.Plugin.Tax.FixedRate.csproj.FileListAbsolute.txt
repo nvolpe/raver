@@ -1,0 +1,10 @@
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.FixedRate\Description.txt
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.FixedRate\web.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.FixedRate\Views\TaxFixedRate\Configure.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.FixedRate\logo.jpg
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.dll.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.dll
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.FixedRate\Nop.Plugin.Tax.FixedRate.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.csprojResolveAssemblyReference.cache
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.dll
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Tax.FixedRate\obj\Debug\Nop.Plugin.Tax.FixedRate.pdb

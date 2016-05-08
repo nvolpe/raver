@@ -1,0 +1,8 @@
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\Description.txt
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\logo.jpg
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\Nop.Plugin.ExchangeRate.EcbExchange.dll.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\Nop.Plugin.ExchangeRate.EcbExchange.dll
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\ExchangeRate.EcbExchange\Nop.Plugin.ExchangeRate.EcbExchange.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\Nop.Plugin.ExchangeRate.EcbExchange.csprojResolveAssemblyReference.cache
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\Nop.Plugin.ExchangeRate.EcbExchange.dll
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.ExchangeRate.EcbExchange\obj\Debug\Nop.Plugin.ExchangeRate.EcbExchange.pdb

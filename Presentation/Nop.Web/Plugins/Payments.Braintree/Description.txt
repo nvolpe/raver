@@ -1,8 +1,0 @@
-Group: Payment methods
-FriendlyName: Braintree
-SystemName: Payments.Braintree
-Version: 1.0
-SupportedVersions: 3.70
-Author: www.nop-payments.com
-DisplayOrder: 1
-FileName: Nop.Plugin.Payments.Braintree.dll

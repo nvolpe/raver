@@ -1,0 +1,10 @@
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.CountryStateZip\Views\TaxCountryStateZip\Configure.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.CountryStateZip\Description.txt
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.CountryStateZip\web.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.CountryStateZip\logo.jpg
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.CountryStateZip\Nop.Plugin.Tax.CountryStateZip.dll.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.CountryStateZip\Nop.Plugin.Tax.CountryStateZip.dll
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.CountryStateZip\Nop.Plugin.Tax.CountryStateZip.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.csprojResolveAssemblyReference.cache
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.dll
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.pdb
