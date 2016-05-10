@@ -32,3 +32,4 @@ C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Widgets.NivoSlide
 C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Widgets.NivoSlider\Nop.Plugin.Widgets.NivoSlider.pdb
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.dll
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Widgets.NivoSlider\obj\Debug\Nop.Plugin.Widgets.NivoSlider.csprojResolveAssemblyReference.cache
