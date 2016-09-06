@@ -1,9 +1,0 @@
-C:\projects\github\personal\raver\Tests\Nop.Tests\bin\Debug\Nop.Tests.dll
-C:\projects\github\personal\raver\Tests\Nop.Tests\bin\Debug\Nop.Tests.pdb
-C:\projects\github\personal\raver\Tests\Nop.Tests\bin\Debug\nunit.framework.dll
-C:\projects\github\personal\raver\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.dll
-C:\projects\github\personal\raver\Tests\Nop.Tests\bin\Debug\nunit.framework.xml
-C:\projects\github\personal\raver\Tests\Nop.Tests\bin\Debug\Rhino.Mocks.xml
-C:\projects\github\personal\raver\Tests\Nop.Tests\obj\Debug\Nop.Tests.csprojResolveAssemblyReference.cache
-C:\projects\github\personal\raver\Tests\Nop.Tests\obj\Debug\Nop.Tests.dll
-C:\projects\github\personal\raver\Tests\Nop.Tests\obj\Debug\Nop.Tests.pdb

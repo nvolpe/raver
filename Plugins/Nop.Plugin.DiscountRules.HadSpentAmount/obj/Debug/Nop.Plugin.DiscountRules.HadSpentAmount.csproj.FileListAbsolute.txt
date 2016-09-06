@@ -1,9 +1,0 @@
-C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\DiscountRulesHadSpentAmount\Configure.cshtml
-C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Description.txt
-C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\web.config
-C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
-C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll.config
-C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
-C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
-C:\projects\github\personal\raver\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.dll
-C:\projects\github\personal\raver\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Debug\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
