@@ -223,7 +223,7 @@ namespace Nop.Web.Controllers
                 if (String.IsNullOrEmpty(logo))
                 {
                     //use default logo
-                    logo = string.Format("{0}Themes/{1}/Content/images/logo.png", _webHelper.GetStoreLocation(), _themeContext.WorkingThemeName);
+                    logo = string.Format("{0}Themes/{1}/Content/images/logo.jpg", _webHelper.GetStoreLocation(), _themeContext.WorkingThemeName);
                 }
                 return logo;
             });

@@ -1,0 +1,13 @@
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Description.txt
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\Configure.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\Create.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\Edit.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\PickupInStore\_CreateOrUpdate.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\web.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\logo.png
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.dll.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.dll
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.csprojResolveAssemblyReference.cache
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.dll
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.pdb

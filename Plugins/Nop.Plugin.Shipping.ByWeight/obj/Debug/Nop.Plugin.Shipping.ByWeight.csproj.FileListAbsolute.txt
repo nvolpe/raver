@@ -1,0 +1,13 @@
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\Configure.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\EditPopup.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\_CreateOrUpdate.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Views\ShippingByWeight\AddPopup.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.ByWeight\web.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Description.txt
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.ByWeight\logo.jpg
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.dll.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.dll
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.ByWeight\Nop.Plugin.Shipping.ByWeight.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.csproj.App.config
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.dll
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.ByWeight\obj\Debug\Nop.Plugin.Shipping.ByWeight.pdb

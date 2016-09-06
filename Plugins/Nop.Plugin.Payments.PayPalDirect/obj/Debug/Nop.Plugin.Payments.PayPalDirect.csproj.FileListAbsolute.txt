@@ -1,0 +1,12 @@
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\Configure.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Views\PaymentPayPalDirect\PaymentInfo.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\web.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Description.txt
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\logo.jpg
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.dll
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Payments.PayPalDirect\Nop.Plugin.Payments.PayPalDirect.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csproj.App.config
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.csprojResolveAssemblyReference.cache
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.dll
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Payments.PayPalDirect\obj\Debug\Nop.Plugin.Payments.PayPalDirect.pdb

@@ -1,0 +1,11 @@
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\Configure.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Description.txt
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\web.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Views\DiscountRulesHasOneProduct\ProductAddPopup.cshtml
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\logo.jpg
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll.config
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.dll
+C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\DiscountRules.HasOneProduct\Nop.Plugin.DiscountRules.HasOneProduct.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.csproj.App.config
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.dll
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.DiscountRules.HasOneProduct\obj\Debug\Nop.Plugin.DiscountRules.HasOneProduct.pdb
