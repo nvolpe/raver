@@ -7,7 +7,7 @@
 
 <html>
 <head>
-    <title>Simple Map</title>
+    <title>Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <style>
@@ -24,16 +24,60 @@
 </head>
 <body>
     <div id="map"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCH0CWmaUR02XZ5KSW6tqyB8erSsj159xk"></script>
     <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 40.397, lng: -99.644},
-          zoom: 5
+        $(document).ready(function () {
+
+            var map;
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 40.397, lng: -99.644 },
+                zoom: 5
+            });
+
+            $.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=glRoYZdFamA3rSgV1IA7opTHIiJ1fCQN&size=500&classificationId=KnvZfZ7vAvF&countryCode=US", function (data) {
+
+
+                var items = [];
+                var marker;
+                var myLatlng 
+
+                $.each(data._embedded.events, function (key, val) {
+
+                    var name = val.name;
+
+
+                    if (val._embedded.venues["0"].location) {
+                        var lat = val._embedded.venues["0"].location.latitude;
+                        var lon = val._embedded.venues["0"].location.longitude;
+                    }
+
+                    if (lat && lon) {
+                        myLatlng = new google.maps.LatLng(lat, lon);
+
+                        console.log('latlong', myLatlng);
+
+                        marker = new google.maps.Marker({
+                            position: myLatlng,
+                            title: name
+                        });
+
+                        // To add the marker to the map, call setMap();
+                        marker.setMap(map);
+                    }
+
+
+
+                    //items.push("<li id='" + key + "'>" + val + "</li>");
+                });
+
+                console.log('woohoo got shit');
+
+            });
+
         });
-      }
+
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCH0CWmaUR02XZ5KSW6tqyB8erSsj159xk&callback=initMap"
-            async defer></script>
+    
 </body>
 </html>
