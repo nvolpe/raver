@@ -8,3 +8,4 @@ C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.Fedex\No
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.csproj.App.config
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.dll
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.Fedex\obj\Debug\Nop.Plugin.Shipping.Fedex.csprojResolveAssemblyReference.cache

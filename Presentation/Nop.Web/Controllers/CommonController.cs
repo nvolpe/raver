@@ -544,6 +544,17 @@ namespace Nop.Web.Controllers
             };
             return View(model);
         }
+
+        //map page
+        [NopHttpsRequirement(SslRequirement.Yes)]
+        //available even when a store is closed
+        [StoreClosed(true)]
+        public ActionResult Map()
+        {
+            return View();
+        }
+
+
         [HttpPost, ActionName("ContactUs")]
         [PublicAntiForgery]
         [CaptchaValidator]

@@ -8,3 +8,4 @@ C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Tax.CountryStateZ
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.csproj.App.config
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.dll
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Tax.CountryStateZip\obj\Debug\Nop.Plugin.Tax.CountryStateZip.csprojResolveAssemblyReference.cache
