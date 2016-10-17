@@ -8,3 +8,4 @@ C:\projects\github\personal\raver\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csproj.App.config
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
 C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
+C:\projects\github\personal\raver\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache
